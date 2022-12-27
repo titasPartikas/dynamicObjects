@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side-container">
+
+            <label for="key">New Key</label>
+            <input type="text" id="key">
+            <label for="existing-keys">Existing Keys</label>
+            <select id="existing-keys" disabled>
+                <option hidden disabled selected value> Select a Key </option>
+            </select>
+            <label for="value">Value</label>
+            <input type="text" id="value">
+            <button id="update-btn">Update Object</button>
+        </div>
+        <div class="right-side-container">
+            <textarea disabled class="object-displayer"></textarea>
+        </div>
+    </div>
+    
+</body>
+</html>
